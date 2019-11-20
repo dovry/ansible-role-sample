@@ -1,0 +1,21 @@
+---
+dependencies: []
+
+galaxy_info:
+  author: Dovry
+  description: Sample role to test CI and Ansible Galaxy
+  license: MIT
+  min_ansible_version: 2.6
+  platforms:
+    - name: EL  # CentOS
+      versions:
+        - 8
+        - 7
+    - name: Ubuntu
+      versions:
+        - bionic
+        - xenial
+  galaxy_tags:
+    - example
+    - test
+    - sample

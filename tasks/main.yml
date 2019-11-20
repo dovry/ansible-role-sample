@@ -1,0 +1,6 @@
+---
+# tasks file for dovry.sample
+- name: Collect facts
+  setup:
+    gather_subset:
+      - all
